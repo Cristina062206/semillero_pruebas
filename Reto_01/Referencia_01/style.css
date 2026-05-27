@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    display: flex; /*Permite cambiar las propiedades en cuanto a posición*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.body-content{
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #DAD7CD;
+    border-radius: 10px;
+}
+.header{
+    width: 95%;
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.header-inside{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #A3B18A;
+}
+.nav{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #A3B18A;
+}
+.main{
+    width: 95%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #A3B18A;
+    border-radius: 10px;
+}
+.content{
+    width: 95%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+.section{
+    width: 70%;
+    height: 95%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #588157;
+}
+.aside{
+    width: 30%;
+    height: 95%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #588157;
+}
+.footer{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #A3B18A;
+    border-radius: 10px;
+}
+.text{
+    width: 95%;
+}

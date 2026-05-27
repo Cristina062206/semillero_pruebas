@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #feb800 70%, #e1e7f7 30%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculadora{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e302f;
+    z-index: 2;
+    flex-direction: column;
+    border-radius: 25px;
+    color: #e1e7f7;
+}
+.salida{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.resumen{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.resultado{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 40px;
+}
+.linea{
+    width: 100%;
+    height: 2px;
+    display: flex;
+    background-color: #feb800;
+}
+.color{
+    width: 50%;
+    height: 2px;
+    display: flex;
+    background-color: #2e302f;
+}
+.ingreso{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.columna1{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.columna2{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.columna3{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.columna4{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.igual{
+    color: #feb800;
+}
