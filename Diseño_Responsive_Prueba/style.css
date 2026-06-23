@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 .header-body{
     background-color: #c9ecff;
@@ -159,6 +159,9 @@ section{
     }
 }
 @media (max-width:600px){
+    article{
+        font-size: 10px;
+    }
     .contenedor-article{
         flex-direction: column;
     }
